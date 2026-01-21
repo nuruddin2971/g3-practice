@@ -135,9 +135,8 @@ main > section {
 .section-title{
     margin: 24px 0;
 }
-.feature-img{
+.feature-architect img{
     width: 100%;
-    /* height: 700px; */
 }
 .feature-card{
     padding: 30px;
@@ -168,7 +167,8 @@ main > section {
 @media screen and (max-width: 576px) {
   .navbar,
   .nav-links,
-  .teams {
+  .teams,
+  .features {
     flex-direction: column;
   }
   .nav-item {
@@ -181,16 +181,24 @@ main > section {
     margin-left: 20px;
     text-align: center;
   }
+  #experience-badge{
+    margin-top: 20px;
+    margin-left: 20px;
+  }
   
 }
 
 /* medium size device */
 @media screen and (min-width: 576px) and (max-width: 992px) {
-    .teams{
+    .teams, .features{
         flex-direction: column;
     }
     .our-features{
         margin: 50px auto;
         text-align: center;
     }
+    #experience-badge{
+    margin-top: 20px;
+    margin-left: 20px;
+  }
 }
