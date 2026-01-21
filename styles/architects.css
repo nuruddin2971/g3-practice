@@ -208,6 +208,18 @@ main > section {
     filter: grayscale(100%);
 }
 
+/* footer section */
+footer {
+  max-width: 1440px;
+  height: 100px;
+  margin: 130px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff4e7;
+  border-radius: 8px;
+}
+
 /* small size device */
 @media screen and (max-width: 576px) {
   .navbar,
@@ -235,6 +247,9 @@ main > section {
   #experience-badge {
     margin-top: 20px;
     margin-left: 20px;
+  }
+  footer{
+    text-align: center;
   }
 }
 
